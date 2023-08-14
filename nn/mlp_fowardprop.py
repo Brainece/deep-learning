@@ -143,7 +143,7 @@ if __name__ == "__main__":
     output = mlp.foward_propagate(input)
     print()
     print()
-    print("Out network believes that {} + {} is equal to {}".format(input[0], input[1], output[0]))
+    print("Our network believes that {} + {} is equal to {}".format(input[0], input[1], output[0]))
 
     # create some inputs
     #inputs = np.random.rand(mlp.num_inputs)
